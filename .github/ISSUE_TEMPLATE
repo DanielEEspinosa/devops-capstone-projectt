@@ -1,0 +1,26 @@
+
+### **As a** [rol]
+<Describir quién es el usuario que se beneficia de esta historia (ej. "Como cliente").>
+
+### **I need** [función]
+<Describir la funcionalidad o característica que el usuario quiere (ej. "Necesito leer los datos de mi cuenta").>
+
+### **So that** [beneficio]
+<Describir el beneficio o el propósito de la funcionalidad (ej. "Para poder verificar mi información personal").>
+
+---
+
+### Detalles y Supuestos
+* [Documentar lo que se sabe sobre la tarea, por ejemplo, "Un modelo de datos y una API de creación de cuenta ya existen."]
+* [Añadir cualquier supuesto relevante para la implementación de esta historia.]
+
+---
+
+### Criterios de Aceptación
+Para que esta historia de usuario se considere completa, los siguientes criterios deben ser cumplidos.
+
+**Gherkin**
+```gherkin
+  Given [algún contexto inicial, ej. "Dado que la cuenta del cliente existe en la base de datos"]
+  When [cierta acción es tomada, ej. "Cuando el servicio RESTful es llamado con el ID de la cuenta"]
+  Then [el resultado de la acción es observado, ej. "Entonces los datos de la cuenta se devuelven correctamente"]
